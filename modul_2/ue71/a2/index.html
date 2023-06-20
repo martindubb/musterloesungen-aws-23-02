@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>HTML Manipulation with JavaScript</title>
+	<style>
+    	.center {
+        	text-align: center;
+    	}
+	</style>
+</head>
+
+<body>
+	<h1 class="center" id="heading">Mein Formular</h1>
+
+	<p>
+    	<form class="center" action="javascript:receive_form(comment)">
+        	<label for="comment">Type your comment here:</label> <br>
+
+        	<textarea id="comment" name="comment" rows="3" cols="50">My multi-line,
+plain-text comment.</textarea><br>
+
+        	<input type="submit" value="Submit form">
+    	</form>
+	</p>
+
+	<script>
+    	function receive_form(text) {
+        	alert(text.value);
+    	}
+	</script>
+</body>
+
+</html>

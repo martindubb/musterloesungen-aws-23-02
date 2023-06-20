@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>EscapeGame: Fluch des Pharao</title>
+	<style>
+    	/* CSS-Code hier einfügen */
+    	* {
+        	box-sizing: border-box;
+    	}
+
+    	body {
+        	margin: 0;
+        	padding: 0;
+        	font-family: Arial, sans-serif;
+    	}
+
+    	nav {
+        	background-color: white;
+    	}
+
+    	ul {
+        	display: flex;
+        	list-style: none;
+        	padding: 1em;
+        	float: right;
+    	}
+
+    	ul a {
+        	color: blue;
+        	margin: 1em;
+    	}
+
+    	.hero-section {
+        	background-image: url("https://images.pexels.com/photos/2570068/pexels-photo-2570068.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        	background-size: cover;
+        	background-position: -50px -120px;
+        	height: 400px;
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	color: yellowgreen;
+        	text-align: center;
+        	text-shadow: 2px 2px white;
+        	clear: right;
+    	}
+
+    	.company-info {
+        	padding: 20px 20%;
+        	background-color: #f2f2f2;
+        	text-align: justify;
+    	}
+
+    	h2 {
+        	text-align: center;
+        	font-size: xx-large;
+    	}
+
+    	.profile-cards {
+        	padding: 2% 5% 10% 5%;
+        	display: flex;
+        	justify-content: center;
+    	}
+
+    	.card {
+        	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        	max-width: 300px;
+        	margin: auto;
+        	text-align: center;
+        	background-color: aliceblue;
+    	}
+
+    	#people {
+        	padding-top: 2%;
+        	background-color: burlywood;
+    	}
+
+    	.card img {
+        	width: 100%;
+    	}
+
+    	.title {
+        	color: grey;
+        	font-size: 18px;
+    	}
+
+    	button {
+        	border: none;
+        	outline: 0;
+        	display: inline-block;
+        	padding: 8px;
+        	color: white;
+        	background-color: #000;
+        	text-align: center;
+        	cursor: pointer;
+        	width: 100%;
+        	font-size: 18px;
+    	}
+
+    	a {
+        	text-decoration: none;
+        	font-size: 22px;
+        	color: black;
+    	}
+
+    	button:hover,
+    	a:hover {
+        	opacity: 0.7;
+    	}
+
+    	.footer {
+        	background-color: #333;
+        	color: yellow;
+        	text-align: center;
+        	padding: 10px;
+        	position: fixed;
+        	bottom: 0;
+        	width: 100%;
+    	}
+	</style>
+	<script src='https://kit.fontawesome.com/a9a32515d5.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+
+	<nav>
+    	<ul>
+        	<li><a href="#ueber">Über uns</a></li>
+        	<li><a href="#people">Mitarbeiter</a></li>
+    	</ul>
+	</nav>
+
+	<div class="hero-section">
+    	<h1>EscapeGame: Fluch des Pharao</h1>
+	</div>
+
+	<div class="company-info" id="ueber">
+    	<h2>Über Uns</h2>
+    	<p>EscapeGame: Fluch des Pharao ist ein fiktives Unternehmen, das sich auf spannende und herausfordernde Escape
+        	Games spezialisiert hat. Unser Ziel ist es, unseren Kunden ein unvergessliches Erlebnis zu bieten, bei dem
+        	sie in eine fesselnde Welt voller Rätsel und Geheimnisse eintauchen können.</p>
+    	<p>Unser Team besteht aus hochqualifizierten Mitarbeitern, die leidenschaftlich daran arbeiten, einzigartige
+        	Escape Game-Szenarien zu entwickeln und umzusetzen. Jeder Mitarbeiter bringt seine individuellen Fähigkeiten
+        	und Talente ein, um den Spielern ein außergewöhnliches Abenteuer zu ermöglichen.</p>
+    	<p>Unser Unternehmen legt großen Wert auf Qualität, Sicherheit und Kundenzufriedenheit. Wir verwenden
+        	hochwertige Materialien und sorgen dafür, dass unsere Spiele regelmäßig überprüft und gewartet werden, um
+        	ein reibungsloses und sicheres Spielerlebnis zu gewährleisten.</p>
+    	<p>Treten Sie ein in unsere glyphiconzinierende Welt der Rätsel und Geheimnisse. Entdecken Sie die verborgenen
+        	Hinweise, lösen Sie die kniffligen Rätsel und entkommen Sie dem Fluch des Pharao. Sind Sie bereit für die
+        	Herausforderung? Dann kommen Sie zu EscapeGame: Fluch des Pharao und erleben Sie ein unvergessliches
+        	Abenteuer!</p>
+	</div>
+
+	<div id="people">
+    	<h2>Unsere MitarbeiterInnen</h2>
+    	<div class="profile-cards">
+        	<div class="card">
+            	<img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                	alt="John">
+            	<h1>John Doe</h1>
+            	<p class="title">CEO & Founder, Example</p>
+            	<p>Harvard University</p>
+            	<a href="#"><i class="fa fa-dribbble"></i></a>
+            	<a href="#"><i class="fa fa-twitter"></i></a>
+            	<a href="#"><i class="fa fa-linkedin"></i></a>
+            	<a href="#"><i class="fa fa-facebook"></i></a>
+            	<p><button>Contact</button></p>
+        	</div>
+        	<div class="card">
+            	<img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                	alt="Jane">
+            	<h1>Jane Miller</h1>
+            	<p class="title">Creative Director</p>
+            	<p>Yale University</p>
+            	<a href="#"><i class="fa fa-dribbble"></i></a>
+            	<a href="#"><i class="fa fa-twitter"></i></a>
+            	<a href="#"><i class="fa fa-linkedin"></i></a>
+            	<a href="#"><i class="fa fa-facebook"></i></a>
+            	<p><button>Contact</button></p>
+        	</div>
+        	<div class="card">
+            	<img src="https://images.pexels.com/photos/1239288/pexels-photo-1239288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                	alt="Alice">
+            	<h1>Alice Smith</h1>
+            	<p class="title">Operations Director</p>
+            	<p>MIT</p>
+            	<a href="#"><i class="fab fa-dribbble"></i></a>
+            	<a href="#"><i class="fab fa-twitter"></i></a>
+            	<a href="#"><i class="fab fa-linkedin"></i></a>
+            	<a href="#"><i class="fab fa-facebook"></i></a>
+            	<p><button>Contact</button></p>
+        	</div>
+    	</div>
+	</div>
+
+	<div class="footer">
+    	<p>&copy; 2023 EscapeGame: Fluch des Pharao. Alle Rechte vorbehalten.</p>
+	</div>
+</body>
+
+</html>

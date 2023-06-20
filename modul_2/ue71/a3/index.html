@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>HTML Manipulation with JavaScript</title>
+	<style>
+    	#myButton {
+        	padding: 5px;
+        	margin: 50px;
+    	}
+
+    	#container {
+        	display: flex;
+    	}
+
+    	#container div {
+        	/* border: 3px solid black; */
+        	width: 33%;
+        	height: 300px;
+        	margin: 30px;
+        	text-align: center;
+    	}
+	</style>
+</head>
+
+<body>
+
+	<div id="container">
+
+    	<div id="first"></div>
+    	<div id="second"><button id="myButton" onclick="geschafft()" onmouseover="moveButton(this.parentElement.id)">Try
+            	press me :-P</button></div>
+    	<div id="third"></div>
+
+	</div>
+
+	<script>
+    	// never called ;-)
+    	function geschafft() {
+        	alert("you made it!");
+    	}
+
+    	// move the button to next div
+    	function moveButton(id) {
+        	let parent = document.getElementById(id);
+        	let btn = parent.innerHTML;
+        	parent.innerHTML = "";
+
+        	// switch
+        	switch (id) {
+            	case "first":
+                	document.getElementById("second").innerHTML = btn;
+                	break;
+            	case "second":
+                	document.getElementById("third").innerHTML = btn;
+                	break;
+            	case "third":
+                	document.getElementById("first").innerHTML = btn;
+                	break;
+        	}
+
+        	// if-else
+        	// if (id == "first") {
+        	// 	document.getElementById("second").innerHTML = btn;
+        	// } else if (id == "second") {
+        	// 	document.getElementById("third").innerHTML = btn;
+        	// } else {
+        	// 	document.getElementById("first").innerHTML = btn;
+        	// }
+
+    	}
+	</script>
+</body>
+
+</html>

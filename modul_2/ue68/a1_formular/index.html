@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formular-Übung</title>
+</head>
+<body>
+  <form action="ziel-datei.php" method="post">
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name" required><br>
+
+	<label>Lieblingsfarbe:</label><br>
+	<input type="radio" id="rot" name="farbe" value="Rot" required>
+	<label for="rot">Rot</label><br>
+	<input type="radio" id="blau" name="farbe" value="Blau" required>
+	<label for="blau">Blau</label><br>
+	<input type="radio" id="gruen" name="farbe" value="Grün" required>
+	<label for="gruen">Grün</label><br>
+
+	<label for="land">Land:</label>
+	<select id="land" name="land">
+  	<option value="Deutschland">Deutschland</option>
+  	<option value="Frankreich">Frankreich</option>
+  	<option value="Spanien">Spanien</option>
+	</select><br>
+
+	<input type="hidden" name="versteckt" value="0112358132134">
+
+	<input type="submit" value="Absenden">
+	<input type="reset" value="Zurücksetzen">
+  </form>
+</body>
+</html>

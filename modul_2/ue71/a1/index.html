@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>HTML Manipulation with JavaScript</title>
+	<style>
+    	#myDiv {
+        	border: 2px solid black;
+        	height: 200px;
+        	margin: 2em;
+    	}
+
+    	.center {
+        	text-align: center;
+    	}
+	</style>
+</head>
+
+<body>
+	<h1 class="center" id="heading">Meine Überschrift</h1>
+	<div id="myDiv"></div>
+
+	<div class="center">
+    	<button onClick="bb()">Change Background</button>
+    	<button onClick="heading()">Change Heading</button>
+    	<button onClick="mydiv()">Change Div</button>
+    	<button onClick="everything()">ALL</button>
+	</div>
+
+	<script>
+    	function randomRGB() {
+        	let one = Math.floor(Math.random() * 256);
+        	let two = Math.floor(Math.random() * 256);
+        	let three = Math.floor(Math.random() * 256);
+        	return "rgb(" + one + "," + two + "," + three + ")"
+    	}
+
+    	function heading() {
+        	document.getElementById("heading").removeAttribute('style');
+        	document.getElementById("heading").setAttribute('style', 'color:' + randomRGB());
+        	return;
+    	}
+
+    	function bb() {
+        	document.body.style.backgroundColor = randomRGB();
+    	}
+
+    	function mydiv() {
+        	document.getElementById("myDiv").removeAttribute('style');
+        	document.getElementById("myDiv").setAttribute('style', 'background-color:' + randomRGB());
+    	}
+
+    	function everything() {
+        	bb();
+        	mydiv();
+        	heading();
+    	}
+	</script>
+</body>
+
+</html>
