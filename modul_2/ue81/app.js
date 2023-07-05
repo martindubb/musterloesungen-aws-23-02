@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const apikey = 'f43e8b042b68a0a3d29a7f217c938e4f';
+const apikey = '<<removed_and_deactivated>>';
 
 const city = process.argv[2]; 
 
