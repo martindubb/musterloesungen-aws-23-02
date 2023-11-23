@@ -1,0 +1,34 @@
+Musterlösung EXKURS KI 
+
+
+
+Was ist Künstliche Intelligenz (KI) und wie unterscheidet sie sich von natürlicher Intelligenz?
+Künstliche Intelligenz ist eine Technologie, die es Computern ermöglicht, Aufgaben zu erledigen, die normalerweise menschliche Intelligenz erfordern. Im Gegensatz zur natürlichen Intelligenz, die in Gehirnen von Lebewesen existiert, wird KI von Maschinen geschaffen und kann bestimmte Aufgaben schneller oder präziser ausführen.
+
+Welche Haupttypen von KI gibt es und wie werden sie klassifiziert?
+KI kann in zwei Haupttypen unterteilt werden: schwache (schmale) KI und starke (allgemeine) KI. Schwache KI ist auf eine spezifische Aufgabe beschränkt, während starke KI die Fähigkeit hätte, eine breite Palette von Aufgaben zu verstehen und zu lösen. Die meisten aktuellen Anwendungen sind schwache KI.
+
+Was ist maschinelles Lernen und wie steht es im Zusammenhang mit KI?
+Maschinelles Lernen ist ein Teilbereich der KI, bei dem Algorithmen Daten analysieren und Muster erkennen, um selbstständig zu lernen und Aufgaben zu verbessern, ohne explizite Programmierung. Es ist eine Methode, um KI-Systemen beizubringen, aus Erfahrung zu lernen.
+
+Was ist der Unterschied zwischen überwachtem und unüberwachtem Lernen in KI-Systemen?
+Überwachtes Lernen beinhaltet die Verwendung von gelabelten Daten, um ein Modell zu trainieren, während beim unüberwachten Lernen das Modell mit unlabeled Daten arbeitet und versucht, Muster und Strukturen eigenständig zu identifizieren.
+
+Was ist Reinforcement Learning und wo kommt es oft zum Einsatz?
+Beim Reinforcement Learning lernt ein Modell durch Interaktion mit einer Umgebung, wobei es Feedback in Form von Belohnungen oder Bestrafungen erhält. Es wird oft in Bereichen wie Spieleentwicklung, Robotik und autonomem Fahren eingesetzt.
+
+Was ist ein neuronales Netzwerk und warum ist es wichtig für KI?
+Ein neuronales Netzwerk ist eine Art von KI-Modell, das von der Struktur des menschlichen Gehirns inspiriert ist. Es besteht aus miteinander verbundenen künstlichen Neuronen, die Informationen verarbeiten. Neuronale Netzwerke sind wichtig, da sie komplexe Muster erkennen können.
+
+Was versteht man unter "Deep Learning" und inwiefern unterscheidet es sich von anderen maschinellen Lernmethoden?
+Deep Learning ist eine spezielle Form des maschinellen Lernens, die tiefe neuronale Netzwerke verwendet. Diese Netzwerke haben viele Schichten (deep), was es ihnen ermöglicht, abstraktere und komplexere Muster zu lernen. Im Vergleich zu flacheren Netzwerken können sie tiefere Einblicke gewinnen.
+
+
+
+
+
+Wie lernen KI-Systeme und was versteht man unter "Training" in diesem Kontext?
+KI-Systeme lernen, indem sie mit Daten trainiert werden. Das Training beinhaltet das Präsentieren von Datenpunkten dem Modell und Anpassen seiner Parameter, damit es Muster erkennen kann. Dieser Prozess wird wiederholt, bis das Modell gute Leistung zeigt.
+
+Was können Limitationen sein beim Nutzen von KI?
+Limitationen von KI umfassen mögliche Voreingenommenheit in den Daten, begrenzte Fähigkeit, Kontext zu verstehen, und das Fehlen von moralischem Urteilsvermögen. KI-Systeme können auch fehlerhaft sein, wenn sie mit neuen, unerwarteten Situationen konfrontiert werden.
